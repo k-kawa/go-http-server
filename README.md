@@ -6,7 +6,17 @@ go-http-server
 [license]: https://github.com/k-kawa/go-http-server/blob/master/LICENSE
 
 The easiest way to start a web server in your Windows/Mac/Linux laptop.
-Downloand it, Copy it and Execute it. That's all!
+
+You merely need to do 3 steps.
+
+- Download the executable binary for your environment from [here]
+- Copy it to the working directory
+- and Execute it.
+
+That's all!
+
+[here]: https://github.com/k-kawa/go-http-server/tree/master/pkg
+
 
 ## Usage
 You just execute `go-http-server start` in your console.
