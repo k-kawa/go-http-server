@@ -15,6 +15,8 @@ You merely need to do 3 steps.
 
 That's all!
 
+You can access the working directory by opening `http://localhost:8000` with your browser.
+
 [here]: https://github.com/k-kawa/go-http-server/tree/master/pkg
 
 
