@@ -5,7 +5,7 @@ go-http-server
 
 [license]: https://github.com/k-kawa/go-http-server/blob/master/LICENSE
 
-The easist way to start a web server in your Windows/Mac/Linux laptop.
+The easiest way to start a web server in your Windows/Mac/Linux laptop.
 Downloand it, Copy it and Execute it. That's all!
 
 ## Usage
