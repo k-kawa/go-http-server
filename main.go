@@ -12,7 +12,7 @@ func main() {
 	app.Name = "go-http-server"
 	app.Usage = "Start web server and public your current directory."
 
-	app.Version = "0.0.1"
+	app.Version = "0.0.2"
 	app.Authors = append(app.Authors, cli.Author{Name: "Kohei Kawasaki", Email: "mynameiskawasaq@gmail.com"})
 
 	app.Commands = []cli.Command{
@@ -32,10 +32,15 @@ func main() {
 		},
 	}
 
+	app.Action = start
+
 	app.Run(os.Args)
 }
 
 func start(c *cli.Context) {
-		port := c.String("port")
-		log.Fatal(http.ListenAndServe(":"+port, http.FileServer(http.Dir("."))))	
+	port := c.String("port")
+	if port == "" {
+		port = "8000"
+	}
+	log.Fatal(http.ListenAndServe(":"+port, http.FileServer(http.Dir("."))))
 }
