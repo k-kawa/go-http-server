@@ -1,7 +1,9 @@
 go-http-server
 ===
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][LICENSE]
+
+[license]: https://github.com/k-kawa/go-http-server/blob/master/LICENSE
 
 The easist way to start a web server in your laptop.
 
